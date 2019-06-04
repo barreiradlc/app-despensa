@@ -1,0 +1,12 @@
+           <ScrollView>
+              
+               <View style={styles.container}>
+                  <Text style={styles.titulo}> {perfil.username} </Text>
+                  <Text style={styles.titulo}> {perfil.name} </Text>
+                  <Text style={styles.titulo}> {perfil.last_name} </Text>
+                  
+                  <Text style={styles.conteudo}> {perfil.email} </Text>
+                  
+               </View>               
+              
+            </ScrollView>
